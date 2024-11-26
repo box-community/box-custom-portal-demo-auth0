@@ -1,0 +1,25 @@
+{
+  "globalSettings": {
+    "LandingPage": "/index"
+  },
+  "navigation": [
+    {
+      "page": "FolderPage",
+      "title": "My Statements"
+    },
+    {
+      "page": "PreviewPage",
+      "title": "Terms & Conditions"
+    }, 
+    {
+      "page": "UploaderPage",
+      "title": "Upload Documentation"
+    }
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#0160D4",
+      "secondary": "#183C67"
+    }
+  }
+}

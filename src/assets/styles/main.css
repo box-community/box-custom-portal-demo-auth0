@@ -1,0 +1,59 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .submit-button {
+        background-color: #0160D4;
+    }
+    
+    button[type="submit"] {
+        @apply submit-button;
+    }
+    
+    button[class="btn-primary"] {
+        background-color: #0160D4;
+    }
+    
+    .btn {
+        background-color: #3A61D5 !important;
+    }
+}
+
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+ol, ul, menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0160D4;
+}
+
+/* Animation keyframes */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.75;
+        transform: scale(0.95);
+    }
+}
